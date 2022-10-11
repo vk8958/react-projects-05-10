@@ -1,0 +1,69 @@
+.img-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    max-width: 900px;
+}
+
+.inner-img {
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    color: rgb(214, 181, 217);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#one {
+    background-image: url('https://www.themanual.com/wp-content/uploads/sites/9/2021/02/best-arm-workouts-for-men-2021.jpg?fit=800%2C800&p=1');
+
+  
+    transition: 0.4s;
+    
+}
+
+#two {
+    background-image: url('https://c1.wallpaperflare.com/preview/611/66/459/portrait-woman-exercise-fitness.jpg');
+    transition: 0.4s;
+}
+
+#three {
+
+    background-image: url('https://media.istockphoto.com/photos/runner-woman-running-in-the-outskirts-of-the-city-picture-id1217027487?b=1&k=20&m=1217027487&s=170667a&w=0&h=5CwZI9eKtZ9Mlxo4Ej5oaP941ficurnxmFPbpBtFils=');
+    transition: 0.4s;
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+
+    height: 500px;
+
+}
+
+
+
+#one:hover {
+
+    width: 500px;
+    left: 0px;
+}
+
+#two:hover {
+
+    width: 500px;
+    left: 0px;
+}
+
+#three:hover {
+
+    width: 500px;
+    left: 0px;
+}
