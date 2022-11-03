@@ -1,0 +1,15 @@
+.sidebar-items{
+background-color: transparent;
+
+}
+
+.sidebar-items:hover{
+    
+   cursor: pointer;
+   background-color:rgb(43, 36, 36);
+   
+}
+
+.sidebar-items:hover span{
+    color: white;
+}

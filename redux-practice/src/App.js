@@ -1,24 +1,23 @@
 
 import './App.css';
 import Navbar from './components/Navbar';
-import Shop from './components/Shop';
-import { useSelector } from 'react-redux'
-import Vikas from './components/class'
+import React, { createContext } from 'react';
+
+const UserContext = createContext();
 
 function App() {
-  const myState = useSelector((state) => state.changeTheNumber);
-  console.log(myState)
+
+
   return (
-    <>
+    <UserContext.Provider value={"vikas"}>
       <Navbar />
       <div className="Container">
-      
-        <Shop props={myState}/>
-        <Vikas/>
+       <Vikas/>    
       </div>
-    </>
+    </UserContext.Provider>
 
   );
 }
 
 export default App;
+export {UserContext};

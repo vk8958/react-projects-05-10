@@ -1,0 +1,44 @@
+body{
+    color: white;
+    background-color: black;
+    display: flex;
+  
+}
+
+.card{
+    border: 0px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(36, 46, 48);
+    width: 300px;
+    height: 300px;
+}
+.card img{
+    height: 45px;
+    margin-top: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.title{
+    text-align: left;
+    height: 100px;
+    margin-left: 10px;
+}
+.btn1{
+    height: 45px;
+    padding: 10px;
+    border-radius: 50px;
+    background: transparent;
+    
+}
+.btn1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 0px;
+}
