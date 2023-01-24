@@ -8,7 +8,7 @@ const VideoCard = ({ video }) => {
 
 
     return (
-        <Card sx={{ width: {xs:'356px',md:'310px'}, boxShadow: "none", borderRadius: 0 }}>
+        <Card sx={{ width: { xs: '356px', md: '310px' }, boxShadow: "none", borderRadius: 0 }}>
             <Link to={video.id.videoId && `/video/${video.id.videoId}`}>
                 <CardMedia image={video.snippet.thumbnails.high.url} alt={"Image not found"} sx={{ width: "100%", height: 160 }} />
             </Link>
@@ -22,7 +22,7 @@ const VideoCard = ({ video }) => {
                 <Link to={video.snippet.channelId && `/video/${video.snippet.channelId}`}>
                     <Typography marginTop="5px">
                         {video.snippet.channelTitle}
-                        <CheckCircleIcon sx={{ fontSize: 12, marginLeft: '5px' }} />
+                        <CheckCircleIcon sx={{ fontSize: 12, marginLeft:'5px'}}/>
                     </Typography>
                 </Link>
             </CardContent>

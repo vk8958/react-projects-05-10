@@ -1,23 +1,40 @@
 
 import './App.css';
-import Navbar from './components/Navbar';
-import React, { createContext } from 'react';
+import Vikas from './components/Vikas';
+import UseRefHook from './components/UseRefHook';
+import UseMemoHook from './components/UseMemoHook';
+import UseReducerHook from './components/UseReducerHook'
+import Hii from './components/Hii'
 
-const UserContext = createContext();
+
 
 function App() {
 
 
+
+  // fetch api data
+  // const getUserData = async () => {
+  //   const response = await fetch(url);
+  //   const jsonData = await response.json();
+  //   setData(jsonData);
+  // }
+
+
+
   return (
-    <UserContext.Provider value={"vikas"}>
-      <Navbar />
-      <div className="Container">
-       <Vikas/>    
-      </div>
-    </UserContext.Provider>
+    <div className="Container">
+      {/* <Vikas  /> */}
+      {/* <UseRefHook /> */}
+      {/* <UseMemoHook /> */}
+
+      <UseReducerHook />
+      <Hii />
+    </div>
+
 
   );
 }
 
 export default App;
-export {UserContext};
+//this is the redux concept redux is more important than contex api
+
